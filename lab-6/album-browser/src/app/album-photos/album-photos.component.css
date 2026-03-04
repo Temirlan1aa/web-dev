@@ -1,0 +1,11 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 150px);
+  gap: 10px;
+}
+
+.grid img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
